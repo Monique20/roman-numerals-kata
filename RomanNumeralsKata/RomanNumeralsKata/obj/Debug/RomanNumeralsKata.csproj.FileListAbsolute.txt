@@ -1,0 +1,6 @@
+C:\Users\moniqueg\Katas\roman-numerals-kata\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\RomanNumeralsKata.dll
+C:\Users\moniqueg\Katas\roman-numerals-kata\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\RomanNumeralsKata.pdb
+C:\Users\moniqueg\Katas\roman-numerals-kata\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\RomanNumeralsKata.csprojAssemblyReference.cache
+C:\Users\moniqueg\Katas\roman-numerals-kata\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\RomanNumeralsKata.csproj.CoreCompileInputs.cache
+C:\Users\moniqueg\Katas\roman-numerals-kata\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\RomanNumeralsKata.dll
+C:\Users\moniqueg\Katas\roman-numerals-kata\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\RomanNumeralsKata.pdb
