@@ -28,16 +28,16 @@ namespace RomanNumeralsKata
             return output.ToString();
         }
 
-        private int Join(int number, int values, string numerals, StringBuilder output)
+        private int Join(int balance, int values, string numerals, StringBuilder output)
         {
-            int result = number;
+            int remainder = balance;
             
-            if (result >= values)
+            if (remainder >= values)
             {
                 output.Append(numerals);
-                result -= values;
+                remainder -= values;
             }
-            return result;
+            return remainder;
         }
 
     }
