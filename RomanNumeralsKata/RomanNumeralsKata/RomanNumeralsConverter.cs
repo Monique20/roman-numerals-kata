@@ -10,31 +10,31 @@ namespace RomanNumeralsKata
     {
         public string Convert(int number)
         {
-            int[] values = { 2000, 1000, 900, 500, 400, 200, 100, 90, 50, 40, 20, 10, 9, 5, 4 };
-            string[] numerals = { "MM", "M", "CM", "D", "CD", "CC", "C", "XC","L", "XL","XX", "X", "IX", "V", "IV" };
+            int[] numbers = { 2000, 1000, 900, 500, 400, 200, 100, 90, 50, 40, 20, 10, 9, 5, 4 };
+            string[] romanNumerals = { "MM", "M", "CM", "D", "CD", "CC", "C", "XC","L", "XL","XX", "X", "IX", "V", "IV" };
 
-            StringBuilder result = new StringBuilder();
+            StringBuilder output = new StringBuilder();
             int balance = number;
            
-            for (int i = 0; i < values.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
-                balance = Join(balance, values[i], numerals[i], result);
+                balance = Join(balance, numbers[i], romanNumerals[i], output);
             }
             for (int i = 0; i < balance; i++)
             {
-                result.Append("I");
+                output.Append("I");
             }
 
-            return result.ToString();
+            return output.ToString();
         }
 
-        private int Join(int number, int values, string numerals, StringBuilder builder)
+        private int Join(int number, int values, string numerals, StringBuilder output)
         {
             int result = number;
             
             if (result >= values)
             {
-                builder.Append(numerals);
+                output.Append(numerals);
                 result -= values;
             }
             return result;
